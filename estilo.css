@@ -1,0 +1,166 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.caja{
+    padding: 0%;
+    height: 0px;
+}
+nav {
+    background-color: #4B1D1D;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin-right: 50px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.nav ul li a:hover{
+    color: white;
+}
+.fondo img{
+    height: 450px;
+    width: 100%;
+    filter: blur(4px);
+    
+}
+.titulo h1{
+    font-family: "Fira Code, Consolas, monospace";
+    color: #4B1D1D;
+    font-size: 7em;
+    position: center;
+    text-align: center;
+    transform: translate(0px, -440px);
+}
+.subtitulo article h2{
+    font-family: "Fira Code, Consolas, monospace";
+    color: #4B1D1D;
+    text-shadow: 2px 2px 5px rgba (255, 255, 255, 0.6);
+    font-size: 5em;
+    text-align: center;
+    position: center;
+    transform: translate(-38px, -470px);
+    
+}
+.subtitulo2 article h2{
+    font-family: cursive;
+    color: #4B1D1D;
+    text-shadow: 2px 2px 5px rgba (255, 255, 255, 0.6);
+    font-size: 2em;
+    text-align: center;
+    position: center;
+    transform: translate(-38px, -510px);
+}
+.numero article{
+    font-family: "Fira Code, Consolas, monospace";
+    color: black;
+    top: -468px;
+    position: relative;
+    float: right;
+    right: 30px;
+}
+.logoheader img{
+    color: white;
+    position: relative;
+    transform: translate(-35px, -830px);
+    width: 12%;
+    height:12%;
+}
+.telefono img{
+    position: relative;
+    transform: translate(1190px, -900px);
+    width: 3%;
+    height: 3%;
+    z-index: 100;
+}
+
+body{
+    background-color:white;
+
+}
+.publicidad img{
+    position: relative;
+    height: right;
+    top: 1em;
+    width: 100%;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+    margin-top: 380px;
+}
+
+.BOTA img{
+width: 190px;
+text-align: center;
+
+}
+.BOTA:hover{
+    transform: translateY(-5PX);
+    background-color: white;
+}
+
+.compra{
+    font-family: monospace;
+    font-style: bold;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+footer{
+    background-color: #5f3a3a;
+    height: 220px;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+.red img {
+    width: 40px;
+}
+
+.mapa img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    width: 85px;
+    transform: translate(620px, -20px);
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 1px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    color: #000;
+}
