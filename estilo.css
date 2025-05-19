@@ -58,7 +58,7 @@ nav ul li a{
     font-size: 5em;
     text-align: center;
     position: center;
-    transform: translate(-38px, -445px);
+    transform: translate(-38px, -450px);
     
 }
 .subtitulo2 article h2{
@@ -68,7 +68,7 @@ nav ul li a{
     font-size: 2em;
     text-align: center;
     position: center;
-    transform: translate(-38px, -490px);
+    transform: translate(-38px, -495px);
 }
 .numero article{
     font-family: "Fira Code, Consolas, monospace";
@@ -87,7 +87,7 @@ nav ul li a{
 }
 .telefono img{
     position: relative;
-    transform: translate(1195px, -900px);
+    transform: translate(1195px, -920px);
     width: 3%;
     height: 3%;
     z-index: 100;
