@@ -81,13 +81,13 @@ nav ul li a{
 .logoheader img{
     color: white;
     position: relative;
-    transform: translate(-35px, -750px);
+    transform: translate(-35px, -800px);
     width: 12%;
     height:12%;
 }
 .telefono img{
     position: relative;
-    transform: translate(1198px, -830px);
+    transform: translate(1190px, -830px);
     width: 3%;
     height: 3%;
     z-index: 100;
