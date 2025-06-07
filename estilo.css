@@ -16,11 +16,6 @@ header{
     background-repeat: no-repeat;
 }
 
-.caja{
-    padding: 0;
-    height: 0px;
-}
-
 nav {
     background-color: #4B1D1D;
     padding: 10px 10px;
@@ -89,33 +84,16 @@ nav ul li a{
     z-index: 9999;
 }
 
-.numero article{
-    font-family: "Fira Code, Consolas, monospace";
-    color: black;
-    top: -470px;
-    position: relative;
-    float: right;
-    right: 30px;
-}
+
 
 .logoheader img{
-    color: white;
-    position: relative;
-    width: 12%;
-    height: 12%;
-    /* Se eliminó transform */
-    margin-left: -35px; /* Ajusta según necesites */
-    top: -370px;
+    position: absolute;
+    top: 20px;  /* Ajusta según necesidad */
+    left: 20px; /* Ajusta según necesidad */
+    width: 12%; /* o 30px si lo prefieres en móvil */
+    z-index: 9999;
 }
 
-.telefono img{
-    position: relative;
-    width: 3%;
-    height: 3%;
-    z-index: 9999;
-    margin-left: 1200px; /* Ajusta según necesites */
-    top: -440px;
-}
 
 .publicidad img{
     position: relative;
@@ -203,6 +181,7 @@ footer{
 @media screen and (max-width: 768px) {
     header {
         height: 150px;
+        position: relative;
     }
     .fondo{
         height: 150px;
@@ -212,14 +191,16 @@ footer{
     }
     
     .logoheader img {
-        width: 30px;
-        display: block;
-        position: static;
+    position: absolute;
+    top: 10px;  /* Ajusta según necesidad */
+    left: -10px; /* Ajusta según necesidad */
+    width: 15%; /* o 30px si lo prefieres en móvil */
+    z-index: 9999;
     }
     
     .titulo h1 {
         font-size: 3em;
-        margin-top: -100px;
+        margin-top: -150px;
     }
 
     .subtitulo article h2 {
@@ -239,7 +220,7 @@ footer{
 
     nav ul {
         flex-direction: row;
-        gap: 10px;
+        gap: 8px;
         align-items: center;
         padding: 0;
     }
@@ -283,5 +264,62 @@ footer{
     .footer-bottom {
         font-size: 0.8em;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        height: 140px;
+        position: relative;
+    }
+
+    .logoheader img {
+        position: absolute;
+        top: 7px;
+        left: -17px;
+        width: 18%;
+        z-index: 9999;
+    }
+
+    .titulo h1 {
+        font-size: 2.5em;
+        margin-top: -150px;
+    }
+
+    .subtitulo article h2 {
+        font-size: 1.5em;
+        margin-top: -15px;
+    }
+
+    .subtitulo2 article h2 {
+        font-size: 1em;
+        margin-top: -20px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+        font-size: 0.7em;
+    }
+
+    .galeria {
+        margin-top: 80px;
+        gap: 10px;
+    }
+
+    .BOTA img {
+        width: 130px;
+    }
+
+    .compra {
+        font-size: 0.8em;
+        padding: 6px 10px;
+    }
+
+    .mapa img {
+        width: 55px;
+    }
+
+    .footer-bottom {
+        font-size: 0.75em;
     }
 }
