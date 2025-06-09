@@ -241,9 +241,11 @@ footer{
         margin-top: 20px;
         width: 100%;
     }
-
+    .redes{
+        height: 20px;
+    }
     footer {
-        height: auto;
+        height: 170px;
         padding: 20px 0;
     }
 
@@ -286,7 +288,7 @@ footer{
 
     .subtitulo2 article h2 {
         font-size: 1em;
-        margin-top: -25px;
+        margin-top: -20px;
     }
 
     nav ul li {
@@ -307,12 +309,19 @@ footer{
         font-size: 0.8em;
         padding: 6px 10px;
     }
-   
+    footer {
+        height: 130px;
+    }
+    .redes{
+        height: 15px;
+    }
     .mapa img {
+        top: -10px;
         width: 55px;
     }
-
+    
     .footer-bottom {
-        font-size: 0.80em;
+        padding: 3px;
+        font-size: 0.70em;
     }
 }
