@@ -20,7 +20,7 @@ nav {
     background-color: #4B1D1D;
     padding: 10px 10px;
     display: flex;
-    align-items: center;
+    
 }
 
 nav ul{
@@ -35,13 +35,13 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: gainsboro;
     text-decoration: none;
     display: block;
 }
 
 .nav ul li a:hover{
-    color: white;
+    color: gainsboro;
 }
 
 .fondo img{
@@ -84,13 +84,11 @@ nav ul li a{
     z-index: 9999;
 }
 
-
-
 .logoheader img{
     position: absolute;
-    top: 20px;  /* Ajusta según necesidad */
-    left: 20px; /* Ajusta según necesidad */
-    width: 12%; /* o 30px si lo prefieres en móvil */
+    top: 10px;  /* Ajusta según necesidad */
+    left: -35px; /* Ajusta según necesidad */
+    width: 15%; /* o 30px en móvil */
     z-index: 9999;
 }
 
@@ -114,11 +112,7 @@ nav ul li a{
 .BOTA img{
     width: 190px;
     text-align: center;
-}
-
-.BOTA:hover{
-    background-color: white;
-    transform: scale(1.05); /* Para efecto hover */
+    border-radius: 8px;
 }
 
 .compra{
@@ -192,8 +186,8 @@ footer{
     
     .logoheader img {
     position: absolute;
-    top: 10px;  /* Ajusta según necesidad */
-    left: -10px; /* Ajusta según necesidad */
+    top: 3px;  /* Ajusta según necesidad */
+    padding: 7px; /* Ajusta según necesidad */
     width: 15%; /* o 30px si lo prefieres en móvil */
     z-index: 9999;
     }
@@ -220,17 +214,18 @@ footer{
 
     nav ul {
         flex-direction: row;
-        gap: 8px;
+        gap: 0px;
         align-items: center;
         padding: 0;
     }
     nav ul li{
-        font-size: 8px;
+        margin-right: 20px;
+        font-size: 0.5em;
     }
 
     .galeria {
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
         margin-top: 100px;
         padding: 10px;
         text-align: center;
@@ -307,7 +302,7 @@ footer{
     }
 
     .BOTA img {
-        width: 130px;
+        width: 150px;
     }
 
     .compra {
