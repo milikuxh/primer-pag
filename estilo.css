@@ -52,7 +52,6 @@ nav ul li a{
 }
 
 .titulo h1{
-    font-family: "Fira Code, Consolas, monospace";
     color: #4B1D1D;
     font-size: 7em;
     text-align: center;
@@ -63,7 +62,6 @@ nav ul li a{
 }
 
 .subtitulo article h2{
-    font-family: "Fira Code, Consolas, monospace";
     color: #4B1D1D;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
     font-size: 5em;
@@ -288,7 +286,7 @@ footer{
 
     .subtitulo2 article h2 {
         font-size: 1em;
-        margin-top: -23px;
+        margin-top: -25px;
     }
 
     nav ul li {
