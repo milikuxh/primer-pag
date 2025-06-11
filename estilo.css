@@ -71,17 +71,6 @@ nav ul li a{
     z-index: 9999;
 }
 
-.subtitulo2 article h2{
-    font-family: cursive;
-    color: #4B1D1D;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
-    font-size: 2em;
-    text-align: center;
-    margin-top: -50px; /* Ajusta según necesites */
-    position: relative;
-    z-index: 9999;
-}
-
 .logoheader img{
     position: absolute;
     top: 10px;  /* Ajusta según necesidad */
@@ -200,10 +189,6 @@ footer{
         margin-top: -10px;
     }
 
-    .subtitulo2 article h2 {
-        font-size: 1.2em;
-        margin-top: -25px;
-    }
 
     nav {
         flex-direction: row;
@@ -284,11 +269,6 @@ footer{
     .subtitulo article h2 {
         font-size: 1.5em;
         margin-top: -13px;
-    }
-
-    .subtitulo2 article h2 {
-        font-size: 1em;
-        margin-top: -20px;
     }
 
     nav ul li {
