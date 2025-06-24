@@ -196,7 +196,7 @@ footer{
         position: relative;
     }
     .logoheader img {
-        width: 25%;
+        width: 21%;
         top: -60px; /* Ajustás la distancia vertical si hace falta */
     }
 }
@@ -219,7 +219,7 @@ footer{
     z-index: 10;
     }
     .logoheader img {
-        width: 28%;
+        width: 26%;
     
     }
     
