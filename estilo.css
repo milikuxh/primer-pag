@@ -53,7 +53,7 @@ nav ul li a{
 }
 
 .titulo h1{
-    top: 20px;
+    top: 5px;
     color: #4B1D1D;
     font-size: 6em;
     text-align: center;
@@ -64,7 +64,7 @@ nav ul li a{
 }
 
 .subtitulo article h2{
-    top: 20px;
+    top: 5px;
     color: #4B1D1D;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
     font-size: 5em;
@@ -78,7 +78,6 @@ nav ul li a{
     display: flex;
     justify-content: center; /* Centrado horizontal */
     align-items: flex-start; /* Arriba del contenedor */
-    top: 10px;/* Distancia desde arriba */
     width: 100%;
 }
 
@@ -219,13 +218,13 @@ footer{
     z-index: 10;
     }
     .logoheader img {
-        width: 26%;
+        width: 18%;
     
     }
     
     .titulo h1 {
         font-size: 3em;
-        margin-top: -150px;
+        margin-top: -120px;
     }
 
     .subtitulo article h2 {
@@ -290,12 +289,52 @@ footer{
         padding: 10px;
     }
 }
+
 @media screen and (orientation: landscape) and (max-height: 500px) {
     .logoheader img {
         width: 18vw;
     }
 }
+@media screen and (max-width: 440px) {
+    header {
+        min-height: 250px;
+        position: relative;
+    }
 
+    .logoheader img {
+        width: 25%;
+        top: -100px; /* Más separación si hace falta */
+    }
+
+    .titulo h1 {
+        font-size: 3.5em;
+        margin-top: -140px;
+    }
+
+    .subtitulo article h2 {
+        font-size: 2em;
+        margin-top: -20px;
+    }
+
+    nav ul li {
+        margin-right: 25px;
+        font-size: 0.8em;
+    }
+
+    .galeria {
+        margin-top: 150px;
+        gap: 20px;
+    }
+
+    .BOTA img {
+        width: 180px;
+    }
+
+    .compra {
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+}
 @media screen and (max-width: 414px) {
     header {
         min-height: 180px;
@@ -303,13 +342,13 @@ footer{
     }
 
     .logoheader img {
-        width: 30%;
+        width: 25%;
         top: -90px; /* Más separación si hace falta */
     }
 
     .titulo h1 {
         font-size: 2.5em;
-        margin-top: -150px;
+        margin-top: -130px;
     }
 
     .subtitulo article h2 {
@@ -349,5 +388,26 @@ footer{
     .footer-bottom {
         padding: 3px;
         font-size: 0.70em;
+    }
+}
+@media screen and (max-width: 390px) {
+    .logoheader img {
+        width: 20%;
+        margin-top: 15px;
+    }
+
+    .titulo h1 {
+        font-size: 2.2em;
+        margin-top: -130px;
+    }
+
+    .subtitulo article h2 {
+        font-size: 1.3em;
+        margin-top: -10px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+        font-size: 0.6em;
     }
 }
