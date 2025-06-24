@@ -84,7 +84,7 @@ nav ul li a{
 
 .logoheader img {
     position: relative;
-    top: -60px; /* Ajustalo según necesidad visual */
+    top: -215px; /* Ajustalo según necesidad visual */
     width: 20vw;
     max-width: 200px;
     height: auto;
@@ -184,8 +184,8 @@ footer{
     }
     
     .logoheader img {
-        width: 20%;
-        top: -90px; /* Ajustás la distancia vertical si hace falta */
+        width: 4em;
+        top: -80px; /* Ajustás la distancia vertical si hace falta */
     }
     
     .titulo h1 {
