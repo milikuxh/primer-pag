@@ -168,7 +168,7 @@ footer{
 }
 
 
-@media screen and (max-width: 768px) {
+@media (orientation: landscape) and (max-width: 768px) {
     header {
         height: 150px;
         position: relative;
@@ -181,8 +181,8 @@ footer{
     }
     
     .logoheader img {
-        width: 20%;
-        top: -90px; /* Ajustás la distancia vertical si hace falta */
+        width: 20vw;
+        top: 5px; /* Ajustás la distancia vertical si hace falta */
     }
     
     .titulo h1 {
