@@ -179,8 +179,8 @@ footer{
 
 @media screen and (max-width: 1100px){
     .logoheader img {
-        width: 10%;
-        top: -150px; /* Ajustás la distancia vertical si hace falta */
+        width: 15%;
+        top: -190px; /* Ajustás la distancia vertical si hace falta */
     }
 }
 
