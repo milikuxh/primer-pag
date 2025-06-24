@@ -174,7 +174,7 @@ footer{
         position: relative;
     }
     .logoheader img {
-        width: 15%;
+        width: 20%;
         top: -220px; /* Ajustás la distancia vertical si hace falta */
     }
 }
@@ -185,7 +185,7 @@ footer{
         position: relative;
     }
     .logoheader img {
-        width: 15%;
+        width: 20%;
         top: -190px; /* Ajustás la distancia vertical si hace falta */
     }
 }
@@ -196,7 +196,7 @@ footer{
         position: relative;
     }
     .logoheader img {
-        width: 15%;
+        width: 25%;
         top: -100px; /* Ajustás la distancia vertical si hace falta */
     }
 }
@@ -213,13 +213,13 @@ footer{
     }
     .logoheader {
     position: absolute;
-    top: 10px; /* distancia fija desde el top */
+    top: 5px; /* distancia fija desde el top */
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
     }
     .logoheader img {
-        width: 24%;
+        width: 28%;
     
     }
     
@@ -303,7 +303,7 @@ footer{
     }
 
     .logoheader img {
-        width: 25%;
+        width: 30%;
         top: -90px; /* Más separación si hace falta */
     }
 
