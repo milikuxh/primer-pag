@@ -170,10 +170,24 @@ footer{
     color: #000;
 }
 
-@media screen and (max-widht: 1300px){
+@media screen and (max-width: 1300px){
     .logoheader img {
-        width: 15vw;
-        top: -200px; /* Ajustás la distancia vertical si hace falta */
+        width: 15%;
+        top: -220px; /* Ajustás la distancia vertical si hace falta */
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .logoheader img {
+        width: 15%;
+        top: -150px; /* Ajustás la distancia vertical si hace falta */
+    }
+}
+
+@media screen and (max-width: 950px){
+    .logoheader img {
+        width: 15%;
+        top: -100px; /* Ajustás la distancia vertical si hace falta */
     }
 }
 @media screen and (max-width: 768px) {
