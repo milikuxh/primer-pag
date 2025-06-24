@@ -75,20 +75,20 @@ nav ul li a{
 }
 
 .logoheader {
-    position: absolute;
-    top: 20px; /* distancia fija desde el top */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: flex-start; /* Arriba del contenedor */
+    top: 10px;/* Distancia desde arriba */
+    width: 100%;
 }
 
 .logoheader img {
     width: 20vw;
     max-width: 200px;
     height: auto;
+    z-index: 10;
     filter: brightness(0);
 }
-
 .publicidad img{
     position: relative;
     height: right;
@@ -213,14 +213,14 @@ footer{
     }
     .logoheader {
     position: absolute;
-    top: 20px; /* distancia fija desde el top */
-    left: 20%;
-    transform: translateX(45%);
+    top: 10px; /* distancia fija desde el top */
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
-}
+    }
     .logoheader img {
-        width: 35%;
-        top: -80px; /* Ajustás la distancia vertical si hace falta */
+        width: 24%;
+    
     }
     
     .titulo h1 {
