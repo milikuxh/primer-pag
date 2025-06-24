@@ -179,12 +179,16 @@ footer{
 
 @media screen and (max-width: 1100px){
     .logoheader img {
-        width: 15%;
+        width: 10%;
         top: -150px; /* Ajustás la distancia vertical si hace falta */
     }
 }
 
 @media screen and (max-width: 950px){
+    header {
+        min-height: 300px;
+        position: relative;
+    }
     .logoheader img {
         width: 15%;
         top: -100px; /* Ajustás la distancia vertical si hace falta */
@@ -203,7 +207,7 @@ footer{
     }
     
     .logoheader img {
-        width: 4em;
+        width: 20%;
         top: -80px; /* Ajustás la distancia vertical si hace falta */
     }
     
